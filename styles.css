@@ -88,6 +88,9 @@ li > a {
   margin-top: 4%;
   width: 40%;
 }
+.right > img {
+  width: 100%;
+}
 .pair {
   margin-top: 4%;
 }
