@@ -79,6 +79,12 @@ li > a {
   font-weight: 800;
   color: white;
   margin-bottom: 5%;
+  line-height: 6rem;
+}
+.shape {
+  font-family: "Miama";
+  font-style: italic;
+  font-weight: 400;
 }
 .text-norm {
   color: rgba(255, 255, 255, 0.5);
@@ -217,6 +223,7 @@ li > a {
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
+  object-position: center;
 }
 .third-head {
   font-size: 3rem;
@@ -237,4 +244,12 @@ li > a {
   padding: 13px 60px;
   border-radius: 50px;
   border: none;
+}
+.fourth-section {
+  padding: 4% 11%;
+}
+.fourth-para {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
