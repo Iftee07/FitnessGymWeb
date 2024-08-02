@@ -262,32 +262,32 @@ li > a {
 .img1 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise1.jpg);
+  background-size: cover;
 }
-.img1 img {
+.image-overlay1 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .img2 {
   width: 100%;
   height: 250px;
 }
-.img2 img {
+.image-overlay2 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
+
 .img3 {
   width: 100%;
   height: 250px;
 }
-.img3 img {
+.image-overlay3 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .grid2 {
   display: grid;
@@ -297,29 +297,26 @@ li > a {
   width: 100%;
   height: 250px;
 }
-.img4 img {
+.image-overlay4 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .img5 {
   width: 100%;
   height: 250px;
 }
-.img5 img {
+.image-overlay5 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .img6 {
   width: 100%;
   height: 250px;
 }
-.img6 img {
+.image-overlay6 {
+  background-color: rgba(121, 58, 58, 0.5);
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
