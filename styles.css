@@ -266,16 +266,19 @@ li > a {
   background-size: cover;
 }
 .image-overlay1 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(6, 255, 210, 0.5);
   width: 100%;
   height: 100%;
 }
 .img2 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise2.png);
+  background-size: cover;
+  background-position: center;
 }
 .image-overlay2 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(255, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
@@ -283,9 +286,12 @@ li > a {
 .img3 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise3.png);
+  background-size: cover;
+  background-position: center;
 }
 .image-overlay3 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
 }
@@ -296,27 +302,40 @@ li > a {
 .img4 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise4.png);
+  background-size: cover;
 }
 .image-overlay4 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
 }
 .img5 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise5.jpg);
+  background-size: cover;
 }
 .image-overlay5 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(66, 255, 0, 0.3);
   width: 100%;
   height: 100%;
 }
 .img6 {
   width: 100%;
   height: 250px;
+  background-image: url(/images/exercise6.jpg);
+  background-size: cover;
 }
 .image-overlay6 {
-  background-color: rgba(121, 58, 58, 0.5);
+  background-color: rgba(0, 71, 255, 0.3);
   width: 100%;
   height: 100%;
+}
+.overlay-text1 {
+  font-size: 1rem;
+  position: relative;
+  top: 80%;
+  left: 5%;
+  font-weight: 500;
 }
