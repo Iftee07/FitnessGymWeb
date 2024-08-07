@@ -262,7 +262,7 @@ li > a {
 .img1 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise1.jpg);
+  background-image: url(./images/exercise1.jpg);
   background-size: cover;
 }
 .image-overlay1 {
@@ -273,7 +273,7 @@ li > a {
 .img2 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise2.png);
+  background-image: url(./images/exercise2.png);
   background-size: cover;
   background-position: center;
 }
@@ -286,7 +286,7 @@ li > a {
 .img3 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise3.png);
+  background-image: url(./images/exercise3.png);
   background-size: cover;
   background-position: center;
 }
@@ -302,7 +302,7 @@ li > a {
 .img4 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise4.png);
+  background-image: url(./images/exercise4.png);
   background-size: cover;
 }
 .image-overlay4 {
@@ -313,7 +313,7 @@ li > a {
 .img5 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise5.jpg);
+  background-image: url(./images/exercise5.jpg);
   background-size: cover;
 }
 .image-overlay5 {
@@ -324,7 +324,7 @@ li > a {
 .img6 {
   width: 100%;
   height: 250px;
-  background-image: url(/images/exercise6.jpg);
+  background-image: url(./images/exercise6.jpg);
   background-size: cover;
 }
 .image-overlay6 {
