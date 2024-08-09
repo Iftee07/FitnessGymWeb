@@ -248,94 +248,71 @@ li > a {
 .fourth-section {
   padding: 4% 18%;
 }
+.fourth-head {
+  font-size: 3rem;
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+}
 .fourth-para {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   line-height: 1.5rem;
   margin-top: 1%;
+  text-align: center;
 }
 .grid1 {
   display: grid;
   margin-top: 5%;
-  grid-template-columns: 24% 50% 24%;
+  grid-template-columns: repeat(3, 1fr);
 }
 .img1 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise1.jpg);
+  width: 100%
+  height: 90%
+  background-image: url(./images/trainer1.png);
   background-size: cover;
 }
-.image-overlay1 {
-  background-color: rgba(6, 255, 210, 0.5);
+.image-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
 }
-.img2 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise2.png);
-  background-size: cover;
-  background-position: center;
-}
-.image-overlay2 {
-  background-color: rgba(255, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
-}
-
-.img3 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise3.png);
-  background-size: cover;
-  background-position: center;
-}
-.image-overlay3 {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-}
-.grid2 {
-  display: grid;
-  grid-template-columns: 39% 25% 34%;
-}
-.img4 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise4.png);
-  background-size: cover;
-}
-.image-overlay4 {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-}
-.img5 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise5.jpg);
-  background-size: cover;
-}
-.image-overlay5 {
-  background-color: rgba(66, 255, 0, 0.3);
-  width: 100%;
-  height: 100%;
-}
-.img6 {
-  width: 100%;
-  height: 250px;
-  background-image: url(./images/exercise6.jpg);
-  background-size: cover;
-}
-.image-overlay6 {
-  background-color: rgba(0, 71, 255, 0.3);
-  width: 100%;
-  height: 100%;
-}
-.overlay-text1 {
+.overlay-text {
   font-size: 1rem;
   position: relative;
   top: 80%;
   left: 5%;
   font-weight: 500;
+}
+.img2 {
+  width: 250px;
+  height: 250px;
+  background-image: url(./images/trainer2.png);
+  background-size: cover;
+  background-position: center;
+}
+.img3 {
+  width: 250px;
+  height: 250px;
+  background-image: url(./images/trainer3.png);
+  background-size: cover;
+  background-position: center;
+}
+.img4 {
+  width: 250px;
+  height: 250px;
+  background-image: url(./images/trainer4.png);
+  background-size: cover;
+}
+.img5 {
+  width: 250px;
+  height: 250px;
+  background-image: url(./images/trainer5.png);
+  background-size: cover;
+}
+.img6 {
+  width: 250px;
+  height: 250px;
+  background-image: url(./images/trainer6.png);
+  background-size: cover;
 }
