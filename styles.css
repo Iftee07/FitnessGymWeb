@@ -89,6 +89,7 @@ li > a {
 .text-norm {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
+  line-height: 1.8rem;
 }
 
 .left {
@@ -288,7 +289,48 @@ li > a {
 }
 .fourth-card img {
   object-fit: cover;
-  object-position: canter;
+  object-position: center;
   filter: opacity(0.7);
   border-radius: 15px;
+}
+.fifth-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  padding: 5% 18.5%;
+  justify-content: space-between;
+}
+.fifth-logo {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--orange1);
+  font-style: oblique 60deg;
+  margin-bottom: 5%;
+}
+.fitness {
+  width: 35%;
+}
+.fifth-head {
+  font-size: 2rem;
+  color: white;
+}
+.fifth-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+}
+.get-started {
+  display: grid;
+}
+.get-started ul {
+  display: grid;
+  gap: 15%;
+}
+footer {
+  padding: 2% 18.5%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.foot-text {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 4%;
 }
