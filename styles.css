@@ -70,6 +70,7 @@ li > a {
 .first-sec {
   /* margin: 0 10% 0 10%; */
   padding: 2% 18.5%;
+  padding-bottom: 0%;
   padding-bottom: 0px;
   display: flex;
   justify-content: space-between;
@@ -132,28 +133,32 @@ li > a {
 .card-norm {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
-  line-height: 1.8rem;
+}
+.right {
+  position: relative;
 }
 .card1 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   width: 50%;
-  padding: 3% 3%;
+  padding: 4% 5%;
   display: flex;
   gap: 15px;
   align-items: center;
-  position: relative;
+  position: absolute;
   left: -30%;
-  top: -25%;
+  top: 75%;
+  backdrop-filter: blur(10px);
 }
 .card2 {
+  backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   width: 50%;
-  padding: 3% 0%;
-  padding-left: 3%;
-  position: relative;
-  top: -70%;
+  padding: 4% 4%;
+  padding-right: 0%;
+  position: absolute;
+  top: 30%;
   left: 60%;
 }
 .card-head2 {
@@ -164,7 +169,6 @@ li > a {
 .second-section {
   background-color: black;
   padding: 4% 18.5%;
-  margin-top: -10.6%;
 }
 .second-head {
   font-weight: 800;
@@ -342,9 +346,14 @@ footer {
   text-align: center;
   margin-top: 4%;
 }
+@media screen and (width>576px) {
+  .hamburg {
+    display: none;
+  }
+}
 @media screen and (max-width: 576px) {
   .nav-list {
-    visibility: hidden;
+    display: none;
   }
   .first-sec {
     flex-direction: column;
@@ -373,20 +382,22 @@ footer {
     margin-top: 15%;
   }
   .card1 {
-    position: relative;
-    left: 2%;
-    top: -320px;
+    left: 0%;
+    top: 50%;
     width: 40%;
   }
   .card2 {
-    position: relative;
     left: 55%;
-    top: -650px;
-    width: 40%;
+    top: 5%;
+    width: 42%;
+    height: 8%;
+    padding-bottom: 7%;
   }
   .second-section {
+    position: relative;
     padding: 10% 5%;
-    margin-top: -43%;
+    margin-top: -30%;
+    z-index: 2;
   }
   .second-head,
   .third-head,
