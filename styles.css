@@ -106,7 +106,7 @@ li > a {
   color: white;
   background-color: var(--orange1);
   font-size: 1.2rem;
-  padding: 15px 35px;
+  padding: 3% 5%;
   border-radius: 50px;
   border: none;
 }
@@ -114,7 +114,7 @@ li > a {
   background-color: #111111;
   color: white;
   font-size: 1.2rem;
-  padding: 15px 35px;
+  padding: 3% 5%;
   border: 1px solid;
   border-radius: 50px;
 }
@@ -129,11 +129,16 @@ li > a {
   font-size: 1.7rem;
   font-weight: 700;
 }
+.card-norm {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+}
 .card1 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   width: 50%;
-  padding: 20px 15px;
+  padding: 3% 3%;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -143,16 +148,16 @@ li > a {
 }
 .card2 {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 10px;
   border-radius: 10px;
   width: 50%;
-  padding: 15px 18px;
+  padding: 3% 0%;
+  padding-left: 3%;
   position: relative;
   top: -70%;
   left: 60%;
 }
 .card-head2 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 800;
   color: white;
 }
@@ -162,6 +167,7 @@ li > a {
   margin-top: -10.6%;
 }
 .second-head {
+  font-weight: 800;
   font-size: 3rem;
   color: white;
   text-align: center;
@@ -169,7 +175,7 @@ li > a {
 .second-para {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
-  margin-top: 1%;
+  margin-top: 20px;
   text-align: center;
 }
 .second-cards {
@@ -242,7 +248,7 @@ li > a {
   color: white;
   background-color: var(--orange1);
   font-size: 1.2rem;
-  padding: 13px 60px;
+  padding: 4% 20%;
   border-radius: 50px;
   border: none;
 }
@@ -298,6 +304,7 @@ li > a {
   display: flex;
   padding: 5% 18.5%;
   justify-content: space-between;
+  align-items: center;
 }
 .fifth-logo {
   font-size: 5rem;
@@ -312,6 +319,7 @@ li > a {
 .fifth-head {
   font-size: 2rem;
   color: white;
+  margin-bottom: 25px;
 }
 .fifth-text {
   color: rgba(255, 255, 255, 0.5);
@@ -322,7 +330,7 @@ li > a {
 }
 .get-started ul {
   display: grid;
-  gap: 15%;
+  gap: 10px;
 }
 footer {
   padding: 2% 18.5%;
@@ -333,4 +341,98 @@ footer {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-top: 4%;
+}
+@media screen and (max-width: 576px) {
+  .nav-list {
+    visibility: hidden;
+  }
+  .first-sec {
+    flex-direction: column;
+  }
+  .nav {
+    padding: 10% 5%;
+    padding-bottom: 5%;
+  }
+  .first-sec {
+    padding: 0% 5%;
+  }
+  .pair {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .head-text {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .card1 {
+    position: relative;
+    left: 2%;
+    top: -320px;
+    width: 40%;
+  }
+  .card2 {
+    position: relative;
+    left: 55%;
+    top: -650px;
+    width: 40%;
+  }
+  .second-section {
+    padding: 10% 5%;
+    margin-top: -43%;
+  }
+  .second-head,
+  .third-head,
+  .fourth-head {
+    font-size: 2.3rem;
+  }
+  .second-cards {
+    padding: 10% 15%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .third-section {
+    flex-direction: column;
+    padding: 7% 7%;
+    margin: 10% 5%;
+  }
+  .third-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-btn {
+    width: 100%;
+  }
+  .third-right {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+  }
+  .fourth-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 5%;
+    gap: 20px;
+  }
+  .fifth-section {
+    flex-direction: column;
+    padding: 10% 5%;
+    gap: 25px;
+    align-items: first baseline;
+  }
+  .fitness {
+    width: 100%;
+  }
+  footer {
+    padding: 10% 5%;
+  }
 }
